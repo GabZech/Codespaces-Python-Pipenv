@@ -4,4 +4,4 @@ FROM python:3.10-slim
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
-RUN  pip install pipenv
+RUN pip install pipenv
