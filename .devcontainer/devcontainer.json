@@ -6,19 +6,18 @@
 		"dockerfile": "../Dockerfile" // More info: https://containers.dev/guide/dockerfile
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/git:1": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"GitHub.copilot",
 				"ms-python.python",
+				"GitHub.copilot",
 				"seatonjiang.gitmoji-vscode"
 			]
 		}
 	},
-	"postCreateCommand": "pipenv sync --dev",
-	"postStartCommand": "pipenv shell"
+	"postCreateCommand": "pipenv sync --dev"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
