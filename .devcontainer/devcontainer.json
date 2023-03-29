@@ -21,7 +21,8 @@
 			"extensions": [
 				"ms-python.python",
 				"GitHub.copilot",
-				"seatonjiang.gitmoji-vscode"
+				"seatonjiang.gitmoji-vscode",
+				"ms-python.flake8"
 			]
 		}
 	},
